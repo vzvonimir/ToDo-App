@@ -1,0 +1,8 @@
+version: '3'
+services:
+
+  todo:
+    image: "zvone99/todo-app:latest"
+    container_name: todo
+    ports:
+      - "3000:3000"
